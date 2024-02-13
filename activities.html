@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#FFF5E4;
+            color: #FF9494;
+		}
+		#activityquestion {
+			font-size: 50px;
+            margin-bottom: 30px;
+		}
+		.activity-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #FF9494;
+        }
+        .activity-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+        .activity-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+	</style>
+</head>
+<body>
+	<div id="activityquestion"><b>Sau đó em muốn đi chơi đâu nữa 🤔 ?</b>
+	</div>
+	<div class = "activities-selection">
+		<div class="activity-item">
+			<img src="activities/xemphim.jpg" alt ="xemphim">
+			<label><input type="checkbox" name="activities" value ="aquarium">Xem phim</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/cafe.webp" alt ="cafe">
+			<label><input type="checkbox" name="activities" value ="arcade">cafe</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/mixue.jpg" alt ="mixue">
+			<label><input type="checkbox" name="activities" value ="cinema">mixue</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/gapgau.jpg" alt ="tttm">
+			<label><input type="checkbox" name="activities" value ="ceramics">Trung tâm thương mại</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/congvien.jpg" alt ="congvien">
+			<label><input type="checkbox" name="activities" value ="kunsthalle">Công viên</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/hotay.png" alt ="hotay">
+			<label><input type="checkbox" name="activities" value ="park.jpeg">Hồ tây</label>
+		</div>
+	</div>
+	<button class = "button" onclick="location.href='lastpage.html'">Last page</button>
+</body>
+</html>
